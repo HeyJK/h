@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Newsadd</servlet-name>
+		<servlet-class>servlet.Newsadd</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>newsdelete</servlet-name>
+		<servlet-class>servlet.newsdelete</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>newstiqu</servlet-name>
+		<servlet-class>servlet.newstiqu</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>newsexit</servlet-name>
+		<servlet-class>servlet.newsexit</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>TestServlet</servlet-name>
+		<servlet-class>servlet.TestServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>xiugai</servlet-name>
+		<servlet-class>servlet.xiugai</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>delete</servlet-name>
+		<servlet-class>servlet.delete</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>chakan</servlet-name>
+		<servlet-class>servlet.chakan</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>liuyantiqu</servlet-name>
+		<servlet-class>servlet.liuyantiqu</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>liuyansubmit</servlet-name>
+		<servlet-class>servlet.liuyansubmit</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>liuyanchakan</servlet-name>
+		<servlet-class>servlet.liuyanchakan</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>liuyanmangerlogo</servlet-name>
+		<servlet-class>servlet.liuyanmangerlogo</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>FileDao</servlet-name>
+		<servlet-class>newsbean.FileDao</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AddDowns</servlet-name>
+		<servlet-class>bean.AddDowns</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>DelDowns</servlet-name>
+		<servlet-class>servlet.DelDowns</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Downs</servlet-name>
+		<servlet-class>servlet.Downs</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UpFile</servlet-name>
+		<servlet-class>servlet.UpFile</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AddDown</servlet-name>
+		<servlet-class>servlet.AddDown</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>newstiqu2</servlet-name>
+		<servlet-class>servlet.newstiqu2</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>newstiqu3</servlet-name>
+		<servlet-class>servlet.newstiqu3</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>Newsadd</servlet-name>
+		<url-pattern>/Newsadd</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>newsdelete</servlet-name>
+		<url-pattern>/newsdelete</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>newstiqu</servlet-name>
+		<url-pattern>/newstiqu</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>newsexit</servlet-name>
+		<url-pattern>/newsexit</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TestServlet</servlet-name>
+		<url-pattern>/TestServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>xiugai</servlet-name>
+		<url-pattern>/xiugai</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>delete</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>chakan</servlet-name>
+		<url-pattern>/chakan</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>liuyantiqu</servlet-name>
+		<url-pattern>/liuyantiqu</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>liuyansubmit</servlet-name>
+		<url-pattern>/liuyansubmit</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>liuyanchakan</servlet-name>
+		<url-pattern>/liuyanchakan</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>liuyanmangerlogo</servlet-name>
+		<url-pattern>/liuyanmangerlogo</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FileDao</servlet-name>
+		<url-pattern>/FileDao</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddDowns</servlet-name>
+		<url-pattern>/AddDowns</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DelDowns</servlet-name>
+		<url-pattern>/DelDowns</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Downs</servlet-name>
+		<url-pattern>/Downs</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpFile</servlet-name>
+		<url-pattern>/UpFile</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddDown</servlet-name>
+		<url-pattern>/AddDown</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>newstiqu2</servlet-name>
+		<url-pattern>/newstiqu2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>newstiqu3</servlet-name>
+		<url-pattern>/newstiqu3</url-pattern>
+	</servlet-mapping>
+
+
+	<welcome-file-list>
+		<welcome-file>zhu.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
